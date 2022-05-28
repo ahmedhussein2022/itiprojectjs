@@ -1,4 +1,5 @@
 
+
 function plus()
 {
     var numm=document.getElementById("insize");
@@ -93,7 +94,6 @@ document.getElementById('addToCartBtn').addEventListener('click',function(){
         console.log(getValue(proName));
         console.log(proName);
         alert('The Product Already Exists In Card');
-
     }
     
     

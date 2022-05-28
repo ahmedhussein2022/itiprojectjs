@@ -79,6 +79,14 @@ for(var i=0 ;i < 20;i++){
     document.getElementsByClassName('cartItem')[i].style.display = 'block';
 }
   for(var i=0 ;i < productNameList.length;i++){
+
+    // console.log("++++++++++++++++++++++++++++++");
+    // console.log(productNameList[i+1])
+    // console.log(productPriceList[i+1])
+    // console.log(productImageList[i+1])
+    // console.log(productQuantityList[i+1])
+    // console.log(productTotalPriceList[i+1])
+    // console.log("++++++++++++++++++++++++++++++");
       if(i==0)
         continue;
       document.getElementsByClassName('cartProductName')[i].innerHTML=productNameList[i];
@@ -93,7 +101,6 @@ for(var i=0 ;i < 20;i++){
       window.onclick= function(e){
         var targetProductName = e.target.nextElementSibling.value;
         console.log("**********************remove"+targetProductName);
-        alert(targetProductName);
         var signifierNo = splitKey(getValue(targetProductName));
         var n = 'productName_'+signifierNo;
         var p = 'productPrice_'+signifierNo;
@@ -123,8 +130,8 @@ for(var i=0 ;i < 20;i++){
 function getSubTotal(){
     var sum=0;
     for(var i=0;i<productTotalPriceList.length;i++){
-        // if(i==0)
-        // continue
+        if(i==productTotalPriceList.length-1||i==0)
+        continue;
         sum+=parseInt(productTotalPriceList[i]);
     }
     if(sum>0){

@@ -47,7 +47,7 @@ else{
             /// about password
 
 var pass=document.getElementById("idpassword");
-var patternForPaswword=/[a-zA-Z 0-9]{8,}/g;
+var patternForPaswword=/[a-zA-Z0-9]{8,}/g;
 pass.addEventListener("blur",function(){
     if(patternForPaswword.test(pass.value)==true){
     
@@ -58,3 +58,4 @@ pass.addEventListener("blur",function(){
     }
 })
 ///////////////////////////////////////////////////
+ 
