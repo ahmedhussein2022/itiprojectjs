@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+.section1{
+    display:flex;
+   
+    
+}
+.main1{
+    background-color:white;
+    width: 100%;
+    min-height: 400vh;
+    align-items: center;
+    margin: 0px;
+    padding: 0px; 
+    bottom: 0%;  
+}
+
+.main1 div .image{
+    width: 100%;
+    display: inline-block;
+    margin: -7px;
+    padding: 0px;
+    height:100%;
+}
+
+.main2{
+background-color:white;
+width: 60%;
+min-height: 100vh;
+padding: 80px 40px;
+padding-left: 100px;
+
+}
+.main2 h1{
+    font-size: 1.8em;
+    font-weight: 300;
+    margin-top: 80px;
+}
+
+.main2 h2{
+    padding: 15px;
+    font-size:  1em;
+    font-weight: 350 ;
+}
+.main2 h2 span{
+    font-weight: 250 ;}
+    
+.input{
+        margin-top: 40px;
+    }
+.input input{
+        padding-top: 20px;
+        padding-bottom: 20px; 
+    }
+.input button:hover{
+    background-color: black;
+    color: blanchedalmond;
+    transform:scale(1.1);
+    border-radius: 15px;
+
+}
+.input button{
+    padding: 20px;
+    padding-left: 20px;
+    transition: all .5s ease-in;
+    border-radius: 15px;
+    font-weight: 600;
+}
+.buy button{
+    padding: 113px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    background-color: black ;
+    color: blanchedalmond;
+    text-align: center;
+    transition: all .5s ease-in;
+    border-radius: 15px;
+    font-weight:600}
+.buy button:hover{
+    background-color: white;
+    color: black;
+    transform:scale(1.1);
+    border-radius: 15px;
+
+}
+.card a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+}
+.price{
+    font-weight: 250;
+    font-size: 17px;
+}
+
+.pictur{padding: 30px;}
+.pictur img
+{width:100%;height:50%;
+    border-radius:20px;
+}
+.description{padding: 30px;
+margin-left: 40px;}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     padding-bottom: 120px;
+     background-color: rgb(164, 195, 219);
+    justify-items: center;
+    }
+.title{
+    margin-top: 150px;
+    font-size: 30px;
+    font-weight: 300;
+    padding-left: 70px;
+    margin-bottom: 35px;
+}
+.review a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.card{
+    width:33%;
+    padding: 15 10 px;
+    transition: all .5s ease-in;
+    border-radius: 20px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.theme-modal--small.reveal
+{
+    background-color: chartreuse;
+}
+
+.card:hover{ 
+    transform:scale(1.1);
+}
+
+.mount{
+    border: 1px solid;
+    padding: 18px   ;
+    margin-right: 5px;
+    padding-bottom: 20px;
+}
+.mountnum{
+    padding: 15px 40px;
+}
+#insize
+{
+    border: hidden;
+    text-align: center;
+}
+
+#contentsection3{
+    background-color: rgb(232, 240, 235);
+    
+}
+
+#inner
+{
+    background-color: chartreuse;
+    border: 2px solid blue;
+}
+.modal-close{
+    color: red;
+    font-weight: 900;
+    font-size: 40px;
+}
+.master
+{
+    background-color:white;
+    width: 80%;
+    padding: 0px 30px;
+    color: rgb(59, 12, 199);
+    height: auto;
+    border: 1px solid rgb(4, 4, 107);
+    border-radius: 15px;
+}
+.links{
+    
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+.cart-product__image
+{
+    margin-bottom: 15px ;
+}
+#added-to-cart-title
+{
+    margin-bottom: 15px;
+}
+.links a{
+
+    text-decoration: none;
+    padding: 10px;
+}
+.buttonalt{
+    margin-left: 5px;
+    border: 2px solid black;  
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.button-checkout{
+    margin-left: 5px;
+    border: 2px solid black;  
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+
+}
+.button-checkout:hover,.buttonalt:hover{
+    background-color: white;
+}
+
+
+/*
+///////////////////////////////////////////
+////////////////////
+///////////////////////////
+/////////////////////////
+////////////////////////////
+*/
+
+
+
+
+
+
+
+
+
+
+
+.mount a{text-decoration: none;}
+#titlesection3{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+#cardsection3{
+    width: 16%;
+    margin: 20px;
+    box-shadow: 0px 5px 25px gray;
+    border-radius: 20px;
+    align-items: center;
+    padding: 5px;
+}
+.cardlink{
+display: inline-block;
+border: radius 30px;
+padding-top: 0px;
+margin-top: -25px;
+
+}
+.size select{
+    width: 100%;
+
+    text-align: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 15px;
+    transition: all .5s ease-in;
+}
+.Add button{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-weight: 250;
+    font-size: 18px;
+    border-radius: 15px;
+    transition: all .5s ease-in;
+    margin-top: 5px;
+    
+}
+.description .price{
+    margin-top: 15px;
+}
+
+/*-------------------------------------------------------------------
+------------------------------------------
++-------------------------------------------
+-------------------------------------
+--------------------------------------------------------------*/
+
+.leftpart
+{
+    
+}
+.rightpart
+{
+}
+.titopio a
+{
+text-decoration: none;
+color: black;
+}
+.titopio{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: black;
+    padding: 15px;
+}
+.information
+{
+    padding: 15px;
+    text-align: center;
+
+}
+.information span
+{
+    padding: 5px;
+}
+.contactinformation
+{
+    justify-content: space-between;
+    padding: 10px;
+}
+.contactinformation p
+{
+    font-size: 17px;
+    font-weight: 7px
+    ;
+}
+.divinput{
+    text-align: center;
+}
+.inputemail{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 15px;
+    
+}
+.inputcompany{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 15px;
+    
+}
+.inputaddress{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 15px;
+}
+.inputapartment{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 15px;
+}
+.inputphone{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 15px;
+    
+}
+.divcheck{
+    display: flex;
+    padding: 10px;
+}
+.divcheck label{
+    margin-left: 15px;
+}
+.shippingtitle{
+    padding: 15px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 2px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.select{
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid;
+    width: 100%;  
+}
+.input-first-name{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+   
+}
+.input-last-name{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.div-input-full-name{
+    padding: 5px;
+    display: flex;
+    margin-top: 15px;
+}
+.div-input-first-name
+{
+    width: 50%;
+}
+.div-input-last-name
+{
+    width: 50%;
+}
+.div-input-full-address{
+    display: flex;
+    padding: 10px;
+}
+.input-city{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px ;
+    border: 1px solid
+}
+.input-postal-code
+{
+    padding: 10px;
+    width: 100%; 
+    border-radius: 10px ;
+    border: 1px solid
+}
+.input-governorate
+{
+    padding: 10px;
+    width: 100%; 
+    border-radius: 10px ;
+    border: 1px solid
+}
+.div-input-governorate
+{
+    width: 33%;
+    margin-right: 8px;
+}
+.div-input-postal-code
+{
+    width: 33%;
+    margin-right: 8px;
+}
+.div-input-city
+{
+    width: 33%;
+    margin-right: 8px;
+}
+.div-save-information
+{
+    display: flex;
+    padding: 15px;
+}
+.div-save-information label{
+    margin-left: 15px;
+}
+.continue-to-shipping
+{
+    padding: 20px 30px;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 20px;
+
+}
+.div-continue-to-shipping
+{
+    padding-bottom: 50px;
+}
+.latelink a{
+text-decoration: none;
+color: black;
+
+}
+.latelink{display: flex;}
+.div-policy{
+    margin-right: 15px;
+    padding-bottom: 100px;
+}
+/*----------------
+------------------*/
+.rightpart
+{ 
+    display: flex;
+    margin-top: 15px;
+   
+}
+.small-row{
+    margin-top: 100px;
+    padding: 40px;
+    width: 100%;   
+}
+.col-lg-5{
+    background-color: rgb(251, 252, 253);
+}
+.div-image-paragraph{
+    display: flex;
+   
+}
+.image{width: 60px;
+height: 70px;
+
+}
+.detaile-of-product{
+
+}
+.div-image
+{
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+.div-details
+{
+    margin-left: 10px;
+}
+.div-details p{
+    font-weight: 700;
+    font-size: 15px;
+}
+.div-price{
+    margin-left: 15px;
+}
+.price{
+    margin-left: 15px;
+    font-weight: 700;
+}
+.div-discount{
+    display: flex;
+    margin-top: 25px;
+    width: 100%;
+}
+.text-discount{
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+}
+.button-discount
+{
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: darkgray;
+}
+.div-dicount-text
+{
+    width: 80%;
+    margin-right: 15px;
+}
+.div-button-dicount
+{
+    width: 20%;
+}
+.div-sub-price{
+    display: flex;
+    justify-content: space-between;
+}
+.shipping
+{
+    display: flex;
+    justify-content: space-between;
+}
+.div-total
+{
+    display: flex;
+    justify-content: space-between;
+}
+.mince:hover,.plus:hover{
+    cursor: pointer;
+}
+/* ---------------------- */
+#closeMsg{
+    display: inline-block;
+    color: rgb(34, 5, 62);
+    font-weight: 400;
+    padding: 5px;
+    float: right;
+    padding-top: 20px;
+}

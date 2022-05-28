@@ -1,0 +1,72 @@
+.header001{
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline 2px solid brown;
+}
+#categories{
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: grey;
+    font-size: 20px;
+    font-weight: 600;
+}
+#categories option{
+    background-color: darkslategray;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 3px 5px;
+}
+#priceRange{
+    width: 100%;
+    color: darkslategray;
+}
+#searchForProduct{
+    display: inline-block;
+    background-color: white;
+    color: darkslategray;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 10px;
+    width: 100%;
+    border-radius: 10px;
+    outline: 0px;
+}
+#searchForProduct::placeholder{
+    color: darkslategray;
+}
+.productItemMultiCategories{
+    display: none;
+}
+.productNameByCats{
+    height: 90px;
+    overflow: hidden;
+    font-size: 18px;
+    width: 250px;
+    text-align: left;
+    padding: 5px;
+}
+.productItem:hover{
+    text-decoration: none;
+}
+.imageByCats{
+    display: inline-block;
+    height: 400px;
+}
+/* ---refresh page----------- */
+#pageRefresh{
+    padding: 50px 0px 0px 0px;
+    font-size: 25px;
+    font-weight: 600;
+    color: grey;
+    font-family: 'Comic Sman Ms';
+    transition: all .5s ease;
+    display: none;
+}
+#pageRefresh:hover{
+    cursor: pointer;
+    color: black;
+
+}

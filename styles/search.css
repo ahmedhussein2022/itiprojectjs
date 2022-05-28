@@ -1,0 +1,89 @@
+
+/* ----------------search-------------------------------------- */
+.search{
+    margin: 0px;
+    display: block;
+    /* background-color: rgba(255, 255, 255, 0.4) */
+}
+.searchInput{
+    width: 100%;
+    background-color: white;
+    opacity: 1;
+    padding: 20px;
+    text-align: center;
+}
+.searchInput input{
+    padding: 5px;
+    width: 50%;
+    border: 1px solid grey;
+}
+.searchInput input::placeholder {
+    color: black;
+}
+.searchInput input:focus{
+    outline: none;
+    border: 1px solid grey;
+}
+.close12{
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.searchResult{
+    min-height: 250px;
+    background-color: white;
+    width: 100%;
+    opacity: 1;
+    /* overflow: auto; */
+    padding: 20px 100px;
+}
+.itemSearch{
+    margin: 10px;
+    /* border: 1px solid grey; */
+    padding: 10px;
+    box-shadow: 0px .5px 5px grey;
+}
+.itemSearch:hover{
+    box-shadow: 0px 5px 20px grey;
+    cursor: pointer;
+}
+.itemSearch img{
+    display: inline-block;
+    margin: 10px;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    transform: scale(1);
+}
+.searchResult h4{
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: grey;
+}
+.productNameSearch{
+    font-size: 16px;
+    text-align: left;
+}
+.productPriceSearch{
+    text-align: center;
+    font-weight: 800;
+    font-size: 15px;
+}
+.imageProductSearched{
+    height: 200px;
+}
+.itemSearch{
+    display: none;
+}
+.productNameSearch{
+    height: 50px;
+    overflow: hidden;
+}
+#header{
+    margin-top: 20px;
+   text-align: center;
+}

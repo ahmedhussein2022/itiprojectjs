@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+.div-login
+{
+    margin-top: 80px;
+    padding: 20px;
+}
+.login{
+    text-align: center;
+}
+.email{
+    text-align: center;
+    width: 35%;
+    padding: 15px 5px;
+    margin-top: 20px;
+}
+.div-email{
+    text-align: center;
+}
+.password{
+    text-align: center;
+    width: 35%;
+    padding: 15px 5px;
+    margin-top: 20px;
+}
+.div-password{
+    text-align: center;
+}
+.div-forgot-password
+{
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+.forgot-password{
+    color: darkred;
+    font-weight: 15px;
+}
+.forgot-password:hover{
+    font-weight:600;
+    color: black;
+}
+.div-sign-in
+{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+.sign-in
+{
+    width: 35%;
+    padding: 15px;
+    background-color: black;
+    font-weight: 500;
+    border-radius: 15px ;
+    color: white;
+}
+.sign-in:hover
+{
+    color: chartreuse;
+}
+.div-create-account
+{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.create-account
+{
+    text-align: center;
+       color: red;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.div-return-to-store
+{
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+}
+.return-to-store
+{
+    text-align: center;
+    color: red;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.div-google
+{
+    text-align: center;
+}
+.facebookk-googlee
+{
+    display: flex;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+
+.div-facebookk
+{
+    text-align: center;
+}
+.div-googlee
+{
+    text-align: center;
+    margin-left: 10px;
+}
+.facebookk{
+    text-align: center;
+    font-weight: 700;
+    color:white;
+    border: 2px solid;
+    background-color: #4267B2;
+    padding: 10px;
+    
+    margin-top: 10px ;
+    padding: 10px 40px;
+}
+.googlee{
+    text-align: center;
+    font-weight: 700;
+    color:white;
+    border: 2px solid;
+    background-color:#DB4437;
+    padding: 10px;
+    margin-top: 10px ;
+    padding: 10px 40px;
+    
+}
+.facebookk:hover
+{
+    color: white;
+}
+.googlee:hover
+{
+    color: white;
+}
+.div-detaile
+{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+.here{
+    margin-left: 10px;
+}
+#div3
+{
+    text-align: center;
+}
+#div4
+{
+    text-align: center;
+}
+/*//////////////////////
+/////////////////////////////*/
+
+.form-inline {  
+    padding: 30px;
+    margin: 30px;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+  
+  .form-inline input {
+    vertical-align: middle;
+    margin: 10px 10px 5px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 600px;
+  }
+  
+  .form-inline button {
+      width: 600px;
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .form-inline button:hover {
+    background-color: rgb(75, 92, 145);
+  }
+  @media (max-width: 800px) {
+    .form-inline input {
+      margin: 10px 0;
+    }
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  .homepage{
+    padding: 0px;
+    margin: 0px 0px 0px 600px;
+  }
+  a#createAccount,#loginBTN{
+      display: inline-block;
+      border: 1px solid gray;
+      padding: 10px 150px;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: none;
+      transition: all .5s ease;
+
+  }
+  a#createAccount:hover,#loginBTN:hover{
+      background-color: gainsboro;
+  }

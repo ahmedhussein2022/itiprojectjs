@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20190216/ourlarge/pngtree-vector-shopping-bag-icon-png-image_540749.jpg">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="../styles/search.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>Index</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row navbar">
+            <div class="col-sm-12 col-lg-3">
+                <a href="index.html"><div class="logo">Online Shop</div></a>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <div class="nav">
+                    <div class="shopDropDown">
+                        <a href="shop.html" id="shotItemLink">Shop</a>
+                    </div>
+                    <div class="dropDownShopEdit">
+                        <a href="shopTheEdit.html" class="dropButton" id="EditShopLink">Shop the edit</a>
+                        <div class="droplist">
+                            <span class="dropitem">RAMADAN KAFTANS</span>
+                            <span class="dropitem">SEASON DRESSES</span>
+                            <span class="dropitem">OFFICE LOOK</span>
+                            <span class="dropitem">ATHLEISURE & LOUNGE</span>
+                            <span class="dropitem">CASUAL & STREETWEAR</span>
+                            <span class="dropitem">NIGHT OUT LOOKS</span>
+                            <span class="dropitem">MODEST & HIJAB</span>
+                        </div>
+                    </div>
+                    <a href="newArraival.html" >new arrival</a>
+                    <a href="kids.html" >kids</a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-3">
+                <div class="search">
+                    <a href="login.html" class="account">Account</a>
+                    <a href="search.html"><span><i class="fa fa-light fa-magnifying-glass"></i></span></a>
+                    <a href="card.html" style="color: grey;"><span class="cart"><i class="fa-solid fa-cart-arrow-down"></i></span></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- -----------------------------shop Dropdown List------------------------------------------- -->
+        <div class="shopListItems" >
+            <div style="background-color: darkslategray;">
+            <div class="row">
+                <div class="col-sm-12 col-lg-3">
+                    <div class="allshop">
+                        <h3>Shop all</h3>
+                        <a href="#">Top</a>
+                        <a href="#">process</a>
+                        <a href="#">Bottom</a>
+                        <a href="#">Demin</a>
+                        <a href="#">jackets & outerwear</a>
+                        <a href="#">jumpsuits & rompers</a>
+                        <a href="#">footwear</a>
+                        <a href="#">swimwear</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <div class="shoptheEdit">
+                        <h3>Shop the edit</h3>
+                        <a href="#">office look</a>
+                        <a href="#">process</a>
+                        <a href="#">Bottom</a>
+                        <a href="#">Demin</a>
+                        <a href="#">jackets & outerwear</a>
+                        <a href="#">jumpsuits & rompers</a>
+                        <a href="#">footwear</a>
+                        <a href="#">swimwear</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <div class="dropImage1">
+                        <h3>New arraival</h3>
+                        <div class="dropImageButton1">Ok</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <div class="dropImage2">
+                        <h3>Sales</h3>
+                        <h5>Up to 70% off</h5>
+                        <div class="dropImageButton2">Ok</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- -----------------------search header ------------------------------->
+    <div class="SearchHeader">
+        <div class="row">
+            <div class="col-sm-12 col-md-1"></div>
+            <div class="col-sm-12 col-md-10">
+                <h2 id="header">What Are You Looking For</h2>
+            </div>
+            <div class="col-sm-12 col-md-1"></div>
+        </div>
+    </div>
+        <div class="search" id="searchContainer">
+            <div class="row">
+                <div class="searchInput">
+                    <input type="text" name="search" id="searchInput" placeholder="Search For SomeThing">
+                    <span class="close12" id="disposeSearch"><i class="fa fa-light fa-circle-xmark"></i></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-lg-1"></div>
+                <div class="col-sm-12 col-lg-10">
+                    <div class="searchResult">
+                        <h4 id="searchResultText">Search Here !</h4>
+                        <div class="row" id="asd">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="asd">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="asd">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="asd">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="asd">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="asd">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="asd">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="asd">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="asd">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="asd">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="asd">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="asd">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="asd">
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                                <div class="itemSearch">
+                                    <img src="" class="imageProductSearched">
+                                    <div class="productNameSearch"></div>
+                                    <div class="productPriceSearch"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-1"></div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div class="row">
+                <div class="col-sm-12 col-lg-5">
+                    <div class="footerEmailHelper">help@opioshop.com</div>
+                    <div class="footerLogo">
+                       OPIO
+                    </div>
+                    <div class="footerMedia">
+                        <a href="#"><span><i class="fa-brands fa-twitter"></i></span></a>
+                        <a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a>
+                        <a href="#"><span><i class="fa-brands fa-instagram"></i></span></a>
+                        <a href="#"><span><i class="fa-brands fa-youtube"></i></span></a>
+                    </div>
+                    <div class="footerCopyWrite">Copy rights © 2022 Opio Shop.</div>
+                </div>
+                <div class="col-sm-12 col-lg-2">
+                    <div class="quickLinks">
+                        <h3>QUICK LINKS</h3>
+                    <a href="#">Size Guide</a>
+                    <a href="#">About Us</a>
+                    <a href="#">My Account</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Opio Gift Cards</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-2">
+                    <div class="footerSupport">
+                        <h3>HELP AND SUPPORT</h3>
+                    <a href="#">Help</a>
+                    <a href="#">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <div class="NEWSLETTER">
+                        <h3>NEWSLETTER</h3>
+                        <div href="#">Sign up for exclusive offers, new launches, original stories, events and more.</div>
+                    <input type="text" name="newsLetter" id="newsLetter" placeholder="NEWSLETTER">
+                    <input type="button" value="SEND" name="sendEmail">
+                    <div class="methodPay">
+                        <span><i class="fa-brands fa-cc-visa"></i></span>
+                        <span><i class="fa-brands fa-cc-paypal"></i></span>
+                        <span><i class="fa-solid fa-cash-register"></i></span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../javascript/search.js"></script>
+    <script src="../javascript/index.js"></script>
+</body>
+</html>
